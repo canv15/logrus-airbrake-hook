@@ -1,4 +1,5 @@
-# Airbrake Hook for Logrus <img src="http://i.imgur.com/hTeVwmJ.png" width="40" height="40" alt=":walrus:" class="emoji" title=":walrus:" />&nbsp;[![Build Status](https://travis-ci.org/gemnasium/logrus-airbrake-hook.svg?branch=master)](https://travis-ci.org/gemnasium/logrus-airbrake-hook)&nbsp;[![godoc reference](https://godoc.org/github.com/gemnasium/logrus-airbrake-hook?status.png)](https://godoc.org/gopkg.in/gemnasium/logrus-airbrake-hook.v3)
+# Airbrake Hook for Logrus <img src="http://i.imgur.com/hTeVwmJ.png" width="40" height="40" alt=":walrus:" class="emoji" title=":walrus:" />&nbsp;[![Build Status](https://travis-ci.org/gemnasium/logrus-airbrake-hook.svg?branch=master)](https://travis-ci.org/gemnasium/logrus-airbrake-hook)[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Flogrus-airbrake-hook.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Flogrus-airbrake-hook?ref=badge_shield)
+&nbsp;[![godoc reference](https://godoc.org/github.com/gemnasium/logrus-airbrake-hook?status.png)](https://godoc.org/gopkg.in/gemnasium/logrus-airbrake-hook.v3)
 
 Use this hook to send your errors to [Airbrake](https://airbrake.io/).
 This hook is using the [official airbrake go package](https://github.com/airbrake/gobrake), and will hit the api V3.
@@ -53,3 +54,7 @@ Notes:
 * the req will be removed from the log entry
 * the name of the field doesn't matter, since it's not logged
 * if more than one request is sent, only the first will be taken into account (and the others will be logged as strings)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Flogrus-airbrake-hook.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Flogrus-airbrake-hook?ref=badge_large)
